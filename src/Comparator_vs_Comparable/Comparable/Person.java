@@ -1,4 +1,4 @@
-package Comparator_vs_Comparable.Comparable;
+package comparator_vs_comparable.Comparable;
 
 class Person implements Comparable<Person> {
     private String name;

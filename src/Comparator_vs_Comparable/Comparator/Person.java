@@ -1,4 +1,4 @@
-package Comparator_vs_Comparable.Comparator;
+package comparator_vs_comparable.Comparator;
 
 class Person {
     private String name;
