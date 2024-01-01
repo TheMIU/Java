@@ -1,3 +1,5 @@
+*.ser
+
 # Compiled class file
 *.class
 
