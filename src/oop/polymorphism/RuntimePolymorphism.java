@@ -1,4 +1,4 @@
-package polymorphism;
+package oop.polymorphism;
 
 class Animal {
     void say() {
