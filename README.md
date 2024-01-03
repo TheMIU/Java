@@ -4,6 +4,10 @@
 
 * <a src="https://github.com/TheMIU/Java/tree/main/src/deadlock"> Deadlock </a>
 
+* <a src="https://github.com/TheMIU/Java/tree/main/src/generics/GenericsExample"> Generics </a>
+
+* <a src="https://github.com/TheMIU/Java/tree/main/src/exceptions/checked_vs_unchecked"> Exceptions </a>
+
 * <a src="https://github.com/TheMIU/Java/tree/main/src/oop"> OOP </a> 
     * <a src="https://github.com/TheMIU/Java/tree/main/src/oop/encapsulation"> Encapsulation </a>
     * <a src="https://github.com/TheMIU/Java/tree/main/src/oop/inheritance"> Inheritance </a>
