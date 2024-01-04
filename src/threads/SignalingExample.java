@@ -69,3 +69,9 @@ public class SignalingExample {
    notifyAll() facilitate communication between threads, allowing them to
    coordinate their actions effectively in a synchronized manner.
  */
+
+ /*
+    synchronized keyword is used to control access to critical sections of code
+    by allowing only one thread at a time to execute a synchronized method 
+    or block on the same object instance.
+  */
