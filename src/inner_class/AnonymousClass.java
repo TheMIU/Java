@@ -6,6 +6,7 @@ interface Greeting {
 
 class OuterClass {
     public static void main(String[] args) {
+        // Anonymous Inner Class
         Greeting greeting = new Greeting() {
             public void greet() {
                 System.out.println("Hello from anonymous class");
