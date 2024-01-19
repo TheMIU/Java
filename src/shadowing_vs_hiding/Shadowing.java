@@ -12,9 +12,12 @@ class Demo {
     private int x = 10;
 
     public void shadowingExample() {
-        System.out.println(x); // Prints the instance variable x
+        System.out.println(x); // Prints the instance variable x // 10
 
         int x = 5; // This is shadowing the instance variable x
-        System.out.println(x); // Prints the local variable x
+        System.out.println(x); // Prints the local variable x // 5
+
+        // but if this keyword is used
+        System.out.println(this.x); // Prints the instance variable x // 10
     }
 }
