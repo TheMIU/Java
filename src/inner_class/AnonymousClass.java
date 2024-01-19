@@ -7,11 +7,16 @@ interface Greeting {
 class OuterClass {
     public static void main(String[] args) {
         // Anonymous Inner Class
-        Greeting greeting = new Greeting() {
+        Greeting greeting1 = new Greeting() {
             public void greet() {
-                System.out.println("Hello from anonymous class");
+                System.out.println("Hello from anonymous class 1");
             }
         };
-        greeting.greet(); // Output: Hello from anonymous class
+        greeting1.greet();
+
+        // also can write like this using lambda expression
+        // valid for functional interfaces (interfaces with a single abstract method)
+        Greeting greeting2 = () -> System.out.println("Hello from anonymous class 2");
+        greeting2.greet();
     }
 }
