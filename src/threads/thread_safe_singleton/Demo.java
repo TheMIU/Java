@@ -7,6 +7,13 @@ public class Demo {
 
         // 2. Bill Pugh Singleton Pattern (Initialization-on-demand holder idiom)
         testBillPughSingleton();
+
+        /*
+         * Both of these approaches are thread-safe, but the Bill Pugh Singleton pattern
+         * is often considered more readable and less error-prone. Additionally, in
+         * modern Java versions, the initialization-on-demand holder idiom is preferred
+         * for simplicity and thread safety.
+         */
     }
 
     private static void testDoubleCheckedLocking() {
