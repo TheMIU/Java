@@ -20,3 +20,14 @@ public class EqualsMethod_vs_EqualSymbol {
         System.out.println("Using == for primitive comparison: " + result); // Output: true
     }
 }
+
+/*
+ * .equals() method
+ * content comparison in objects
+ * checking if they are equal based on their values.
+ * 
+ * == operator
+ * used for reference comparison
+ * checking if two references point to the same memory location
+ * Compare primitive values
+ */

@@ -1,4 +1,5 @@
 *.ser
+bin/*.html
 
 # Compiled class file
 *.class
