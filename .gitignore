@@ -1,5 +1,5 @@
 *.ser
-bin/*.html
+bin/
 
 # Compiled class file
 *.class

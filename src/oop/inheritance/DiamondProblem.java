@@ -8,6 +8,11 @@ public class DiamondProblem {
         k.methodAi();
         k.methodBi();
         k.methodCi();
+
+        R r = new R();
+        r.methodAi();
+        r.methodBi();
+        r.methodCi();
     }
 }
 
@@ -73,4 +78,29 @@ interface Bi {
 
 interface Ci {
     void methodCi();
+}
+
+// ===================================================
+// also interface can extend with multiple interfaces
+interface Di extends Ci, Bi, Ai {
+
+}
+
+class R implements Di {
+
+    @Override
+    public void methodCi() {
+        System.out.println("method 'methodCi'");
+    }
+
+    @Override
+    public void methodBi() {
+        System.out.println("method 'methodBi'");
+    }
+
+    @Override
+    public void methodAi() {
+        System.out.println("method 'methodAi'");
+    }
+
 }
