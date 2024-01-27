@@ -3,7 +3,14 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class TryWithResourcesExample {
-
+    /*
+        try (resource initialization) { 
+            // code  
+        } catch (Exception e) { 
+            // exception handling 
+        }
+    */
+    
     public static void main(String[] args) {
         // Specify the file path
         String filePath = "output.txt";
