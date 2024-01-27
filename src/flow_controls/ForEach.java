@@ -1,8 +1,12 @@
 package flow_controls;
 
+import java.util.Arrays;
+
 public class ForEach {
     public static void main(String[] args) {
         /*
+        * Purpose: Simplifies iteration over collections.
+        *
         * Syntax
          
             for (ElementType element : collection) {
@@ -14,11 +18,17 @@ public class ForEach {
         * collection: The array or iterable collection through which you want to iterate.
         
         */
-        
-        int[] numbers = {1, 2, 3, 4, 5};
 
+        int[] numbers = { 1, 2, 3, 4, 5 };
+
+        // ForEach loop
         for (int num : numbers) {
             System.out.println(num);
         }
+
+        // also supports lambda expressions
+        Arrays.stream(numbers).forEach(num -> {
+            System.out.print(num);
+        });
     }
 }
